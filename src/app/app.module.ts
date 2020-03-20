@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { WarframesComponent } from './components/warframes/warframes.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WarframesComponent
+    WarframesComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
