@@ -16,7 +16,7 @@ const routes: Routes = [
 {	path: 'login', component: LoginComponent },
 {	path: 'primaries', component: PrimariesComponent	},
 {	path: 'secondaries', component: SecondariesComponent	},
-{	path: 'melee', component: MeleesComponent	},
+{	path: 'melees', component: MeleesComponent	},
 {	path: 'warframes', component: WarframesComponent	},
 {	path: 'users', component: UsersComponent	},
 {	path:'**', pathMatch: 'full', redirectTo: ''}];
