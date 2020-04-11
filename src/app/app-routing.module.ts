@@ -11,7 +11,7 @@ import {UsersComponent} from './components/users/users.component'
 
 
 const routes: Routes = [
-{	path:'home', component:UserHomeComponent	},
+{	path:'RagnarokHeralds/home', component:UserHomeComponent	},
 {	path: '', component: LoginComponent	},
 {	path: 'login', component: LoginComponent },
 {	path: 'primaries', component: PrimariesComponent	},
