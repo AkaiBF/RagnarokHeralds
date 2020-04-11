@@ -1,0 +1,23 @@
+<app-user-navbar></app-user-navbar>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let weapon of data.melees">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<img [src]="'https://cdn.warframestat.us/img/' + weapon.imageName"/>
+  			{{ weapon.name }}
+  		</div>
+  		<div class="col-md-8">
+  			<select [class]="'form-control option' + weapon.obtained" [(ngModel)]="weapon.obtained" (change)="saveChanges()">
+  				<option value="0">NUEVA</option>
+		  		<option value="1">No me interesa</option>
+		  		<option value="2">En búsqueda</option>
+		  		<option value="3">En fundición</option>
+		  		<option value="4">Leveando</option>
+          <option value="5">Vendido</option>
+		  		<option value="6">Leveada</option>
+		  		<option value="7">Maxeada</option>
+		  	</select>
+  		</div>
+  	</div>
+  </li>
+</ul>
